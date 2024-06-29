@@ -1,1 +1,1 @@
-bot kontol
+bot
