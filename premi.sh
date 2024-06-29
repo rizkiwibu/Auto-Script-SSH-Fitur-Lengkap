@@ -57,7 +57,7 @@ echo -e " WELCOME DEFF OFFICIAL AUTOSCRIPT PREMIUM${YELLOW}(${NC}${green}Stable 
 echo -e " PROSES PENGECEKAN IP ADDRESS ANDA !!"
 echo -e "${purple}----------------------------------------------------------${NC}"
 echo -e " ›AUTHOR : ${green}DEFF_7 ${NC}${YELLOW}(${NC}${green}V 3.2${NC}${YELLOW})${NC}"
-echo -e " ›TEAM : DEFF OFFICIAL ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e " ›TEAM : DEFF OFFICIAL ${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
