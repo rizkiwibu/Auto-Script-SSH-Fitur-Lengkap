@@ -1,5 +1,5 @@
 ## UPGRADE FOR DEBIAN
-Masukkan perintah dibawah jika anda menggunakan OS Debian Version 10
+Masukkan perintah dibawah jika anda menggunakan OS Debian Version 10-11
 ```
 apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y install xxd && apt install -y bzip2 && apt install -y wget && apt install -y curl && reboot
 ```
