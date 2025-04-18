@@ -31,7 +31,7 @@ clear
 ipsaya=$(curl -sS ipv4.icanhazip.com)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
-data_ip="https://raw.githubusercontent.com/DEFF-OFFICIAL/install/main/ip"
+data_ip="https://raw.githubusercontent.com/rizkiwibu/Auto-Script-SSH-Fitur-Lengkap/refs/heads/main/ip"
 checking_sc() {
   useexp=$(wget -qO- $data_ip | grep $ipsaya | awk '{print $3}')
   if [[ $date_list < $useexp ]]; then
@@ -45,7 +45,7 @@ checking_sc() {
     echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
     echo -e "             \033[0;33mContact Admin :${NC}"
-    echo -e "      ${GREEN}TELEGRAM${NC} t.me/DEFF_7"
+    echo -e "      ${GREEN}TELEGRAM${NC} t.me/ikystorehosting"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     exit 0
   fi
@@ -53,11 +53,11 @@ checking_sc() {
 checking_sc
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e " WELCOME DEFF OFFICIAL AUTOSCRIPT PREMIUM${YELLOW}(${NC}${green}Stable Edition${NC}${YELLOW})${NC}"
+echo -e " WELCOME IKYSTORE OFFICIAL AUTOSCRIPT PREMIUM${YELLOW}(${NC}${green}Stable Edition${NC}${YELLOW})${NC}"
 echo -e " PROSES PENGECEKAN IP ADDRESS ANDA !!"
 echo -e "${purple}----------------------------------------------------------${NC}"
-echo -e " ›AUTHOR : ${green}DEFF_7 ${NC}${YELLOW}(${NC}${green}V 3.2${NC}${YELLOW})${NC}"
-echo -e " ›TEAM : DEFF OFFICIAL ${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
+echo -e " ›AUTHOR : ${green}ikystorehosting ${NC}${YELLOW}(${NC}${green}V 3.2${NC}${YELLOW})${NC}"
+echo -e " ›TEAM : IKYSTORE OFFICIAL ${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
