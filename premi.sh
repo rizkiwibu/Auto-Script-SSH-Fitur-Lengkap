@@ -297,7 +297,7 @@ curl "ipinfo.io/city?token=7a814b6263b02c" > /root/.city
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/DEFF-OFFICIAL/install/main/ip"
+izinsc="https://raw.githubusercontent.com/rizkiwibu/Auto-Script-SSH-Fitur-Lengkap/refs/heads/main/ip"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -333,8 +333,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="2054209057"
-KEY="7222409581:AAFaemBcAJrSQnnsVvNkauzV0bBr6hqYlP0"
+CHATID="7681100890"
+KEY="7832981066:AAFi91BXHfM-jxW0JPgXQ9Pudi1kGLj84HA"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /root/.isp)
 CITY=$(cat /root/.city)
@@ -350,10 +350,10 @@ TIMEZONE=$(printf '%(%H:%M:%S)T')
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$exp</code>
 <code>────────────────────</code>
-<b> DEFF OFFICIAL SCRIPT  </b>
+<b> IKYSTORE OFFICIAL SCRIPT  </b>
 <code>────────────────────</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/@DEFF_7"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/@ikystorehosting"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
@@ -1037,11 +1037,11 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ SCRIPT BY DEFF OFFICIAL ]-==============="
+echo "===============-[ SCRIPT BY IKYSTORE OFFICIAL ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
-echo "ThanksYou For Using Script DEFF OFFICIAL"
+echo "ThanksYou For Using Script IKYSTORE OFFICIAL"
 echo ""
 read -p "$( echo -e "Press ${YELLOW}[ ${NC}${YELLOW}Enter${NC} ${YELLOW}]${NC} For reboot") "
 reboot
